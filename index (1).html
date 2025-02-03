@@ -1,69 +1,119 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Kaviya Darshini - Portfolio</title>
+    <title>P. Kaviya Darshini - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <div class="intro">
-            <h1>P. Kaviya Darshini</h1>
-            <p>Data Science Enthusiast | UI/UX Designer</p>
-        </div>
-        <nav>
-            <a href="#about">About Me</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hi! I’m Kaviya Darshini, a passionate data science enthusiast skilled in analyzing complex datasets and creating visually compelling stories using tools like Power BI, Python, and Tableau. I enjoy integrating technology and design to develop innovative solutions for real-world problems.</p>
-    </section>
-
-    <section id="skills">
-        <h2>Technical Skills</h2>
+    <nav class="navbar">
         <ul>
-            <li>Python</li>
-            <li>PowerBI</li>
-            <li>Tableau</li>
-            <li>C Language</li>
-            <li>HTML & CSS</li>
-            <li>UI/UX Design</li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
-    </section>
+    </nav>
 
-    <section id="projects">
-        <h2>Notable Projects</h2>
-        <div class="project">
-            <h3>Customer Churn Prediction</h3>
-            <p>Used Power BI and Python to predict customer churns for businesses to help retain their customers efficiently.</p>
-        </div>
-        <div class="project">
-            <h3>House Price Prediction</h3>
-            <p>Built a predictive model using Python with datasets from Kaggle to estimate house prices based on various factors.</p>
-        </div>
-        <div class="project">
-            <h3>Movie Ticket Booking System</h3>
-            <p>Developed a C++ application for movie ticket booking with seat selection functionality.</p>
+    <section id="home" class="hero">
+        <h1>P. Kaviya Darshini</h1>
+        <p>AI & Data Science Engineer</p>
+        <div class="social-links">
+            <a href="https://linkedin.com/in/kaviyadarshini" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/PKAVIYADARSHINI/dce.git" target="_blank"><i class="fab fa-github"></i></a>
         </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:kavyadarshini006@gmail.com">kavyadarshini006@gmail.com</a></p>
-        <p>Phone: 7358231675</p>
-        <p><a href="https://www.linkedin.com/in/kaviyadarshini" target="_blank">LinkedIn</a></p>
-        <p><a href="https://github.com/PKAVIYADARSHINI" target="_blank">GitHub</a></p>
+    <section id="about" class="section">
+        <h2>ABOUT ME</h2>
+        <p> Highly skilled in data training and testing with extensive 
+            experience in analyzing complex datasets, developing predictive models, and
+            creating insightful visualizations using Power BI. Passionate about 
+            integrating data science with design to create user-friendly dashboards.</p>
+        
+        <div class="skills">
+            <h3>TECHNICAL SKILLS</h3>
+            <div class="skill-items">
+                <li>Python</li>
+                <li>Power BI</li>
+                <li>Tableau</li>
+                <li>C/C++</li>
+                <li>HTML/CSS</li>
+                <li>UI/UX</li>
+            </div>
+        </div>
     </section>
 
-    <footer>
-        <p>&copy; 2024 P. Kaviya Darshini</p>
-    </footer>
+    <section id="projects" class="section">
+        <h2>PROJECTS</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Customer Churn Prediction</h3>
+                <p class="tech-stack">Python, Machine Learning</p>
+                <p>Developed predictive models to analyze customer churn patterns.</p>
+            </div>
+            <div class="project-card">
+                <h3>fake news detection</h3>
+                <p class="tech-stack">Python, machine learning,NLP</p>
+                <p>Implemented to provide a fake news and real news to the user.</p>
+            </div>
+            <div class="project-card">
+                <h3>Movie Ticket Booking</h3>
+                <p class="tech-stack">C++</p>
+                <p>Created console-based seat selection system with booking features.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <h2>EXPERIENCE & EDUCATION </h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>Internships</h3>
+                <ul>
+                    <li>Dcodes Technologies (Jul 2023)</li>
+                    <li>Technohacks Eduitech (Nov-Dec 2023)</li>
+                    <li>Codecasa (Jan-Feb 2024)</li>
+                    <li>Codsoft (Mar-Apr 2024)</li>
+                    <li>cognitive value tech (dec 2024-feb 2025)</li>
+                </ul>
+            </div>
+            <div class="timeline-item">
+                <h3>EDUCATION</h3>
+                <p>B.Tech AI & Data Science<br>
+                Dhanalakshmi College of Engineering<br>
+                2021-2025</p>
+            </div>
+            <div class="timeline-item">
+                <h3>CERTIFICATIONS</h3>
+                <ul>
+                    <li>Celonis Process Automation</li>
+                    <li>MongoDB Basics</li>
+                    <li>Tableau for Data Science</li>
+                    <li>Advanced Python Programming</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="contact-info">
+            <p><i class="fas fa-envelope"></i> kayadarshini006@email.com</p>
+            <p><i class="fas fa-phone"></i> +91 7358231675</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
